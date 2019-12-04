@@ -11,4 +11,4 @@ public class Bird : MonoBehaviour
             GetComponent<Rigidbody>().AddForce(new Vector3(500, 500, 0));
         }
     }
-}//Working
+}

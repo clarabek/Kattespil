@@ -25,16 +25,4 @@ public class KittyKat : MonoBehaviour
             }
         }
     }
-} /*Works till here
-
-    private void OnControllerColliderHit(ControllerColliderHit hit)
-    {
-        
-        IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
-        if (item != null)
-        {
-            inventory.AddItem(item);
-        }
-    }
-
-}*/
+} 
