@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class Bird : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision objectHits)
+    public GameObject note;
+
+    private void OnTriggerEnter(Collider objectHits)
     {
-        if (objectHits.gameObject.name == "KittyKat")
+        Debug.Log("Trigger");
+        Instantiate(note);
+
+        if (objectHits.gameObject.tag == "Player")
         {
-            GetComponent<Rigidbody>().AddForce(new Vector3(500, 500, 0));
+            GetComponent<Rigidbody>().AddForce(new Vector3(500, 500, 3000));
         }
     }
 }
