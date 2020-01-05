@@ -3,140 +3,35 @@ guid: bf8332a11a300284aa50aff12ae8a01a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6593485866401205361
-    second: grass2
-  - first:
-      213: 5893440315343825347
-    second: grass1
-  - first:
-      213: -6546175947063255752
-    second: stone2
-  - first:
-      213: 7270552823514981355
-    second: sticks1
-  - first:
-      213: -2892948179347609362
-    second: sprites sheet garden v1_4
-  - first:
-      213: 9059713910610214508
+      213: 21300000
     second: bush 1
   - first:
-      213: -8845874820565250204
+      213: 21300002
     second: flowers
   - first:
-      213: 8917131823183268608
-    second: sprites sheet garden v1_7
-  - first:
-      213: -3726742387568211542
-    second: sprites sheet garden v1_8
-  - first:
-      213: 2221267792985656510
-    second: sprites sheet garden v1_9
-  - first:
-      213: 8166204916423010953
-    second: sprites sheet garden v1_10
-  - first:
-      213: 9109149737604677517
-    second: sprites sheet garden v1_11
-  - first:
-      213: -5322286276886361967
-    second: sprites sheet garden v1_12
-  - first:
-      213: -8591692821703754988
-    second: sprites sheet garden v1_13
-  - first:
-      213: -8148598851380222227
-    second: sprites sheet garden v1_14
-  - first:
-      213: -6601937894761005999
-    second: sprites sheet garden v1_15
-  - first:
-      213: 8311959693198180707
-    second: sprites sheet garden v1_16
-  - first:
-      213: 4579529438992348297
-    second: sprites sheet garden v1_17
-  - first:
-      213: 7001808657419249888
-    second: sprites sheet garden v1_18
-  - first:
-      213: -5508637787324411656
-    second: sprites sheet garden v1_19
-  - first:
-      213: 5805547061485414326
-    second: sprites sheet garden v1_20
-  - first:
-      213: -7146318916711441579
-    second: sprites sheet garden v1_21
-  - first:
-      213: 7240970199454789155
-    second: sprites sheet garden v1_22
-  - first:
-      213: -1691808279635651328
-    second: sprites sheet garden v1_23
-  - first:
-      213: 647915694776907177
-    second: sprites sheet garden v1_24
-  - first:
-      213: -4514745136054090142
-    second: sprites sheet garden v1_25
-  - first:
-      213: 6787325015704423886
-    second: sprites sheet garden v1_26
-  - first:
-      213: -240477839375881591
-    second: sprites sheet garden v1_27
-  - first:
-      213: 8029471039497749027
-    second: sprites sheet garden v1_28
-  - first:
-      213: 4900715657427369509
-    second: sprites sheet garden v1_29
-  - first:
-      213: -6541035654291014322
-    second: sprites sheet garden v1_30
-  - first:
-      213: -5689944913754129081
-    second: sprites sheet garden v1_31
-  - first:
-      213: 7927242508889107221
-    second: sprites sheet garden v1_32
-  - first:
-      213: 3802638562388232421
-    second: sprites sheet garden v1_33
-  - first:
-      213: 1108169042215860065
-    second: sprites sheet garden v1_34
-  - first:
-      213: -1928619869542613994
-    second: sprites sheet garden v1_35
-  - first:
-      213: 1928061000331729060
+      213: 21300004
     second: stone1
   - first:
-      213: 6265349221899104717
+      213: 21300006
     second: fence
   - first:
-      213: 7806025407238731398
-    second: sprites sheet garden v1_38
-  - first:
-      213: 9078124955932386055
-    second: sprites sheet garden v1_39
-  - first:
-      213: -6024809918754540220
-    second: sprites sheet garden v1_40
-  - first:
-      213: 628775909059748387
-    second: sprites sheet garden v1_41
-  - first:
-      213: -4512143593961057621
+      213: 21300008
     second: sticks2
   - first:
-      213: -1760983096716262426
-    second: sprites sheet garden v1_43
-  - first:
-      213: 431608978471039193
+      213: 21300010
     second: bush2
+  - first:
+      213: 21300012
+    second: grass2
+  - first:
+      213: 21300014
+    second: grass1
+  - first:
+      213: 21300016
+    second: stone2
+  - first:
+      213: 21300018
+    second: sticks1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -204,7 +99,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -216,7 +111,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -236,7 +131,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: db02db5d80eea9c47882a6e081c2ba0d
-      internalID: 9059713910610214508
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -257,7 +152,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f21145c4abcf94d4dbe82b30a7fbd59c
-      internalID: -8845874820565250204
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -278,7 +173,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 69e636faf668e07499f9d99bf2f51017
-      internalID: 1928061000331729060
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -299,7 +194,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 63230518d0b75b749a8c64084226d8ff
-      internalID: 6265349221899104717
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -320,7 +215,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 6a79464669d533f43acfccbe16f517e6
-      internalID: -4512143593961057621
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -341,7 +236,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c1fd7331381da6946ac37a663329280a
-      internalID: 431608978471039193
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -362,7 +257,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e23c0caf5b02c704f9eac02a9e91cbdd
-      internalID: -6593485866401205361
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -383,7 +278,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2ddaf48fc3c027940a6df53e05731191
-      internalID: 5893440315343825347
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -404,7 +299,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 394150de88ab4a24e82ee247474e49b5
-      internalID: -6546175947063255752
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
@@ -425,7 +320,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ff5157737807aa54abe56ed90217a1a4
-      internalID: 7270552823514981355
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
