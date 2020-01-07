@@ -1,0 +1,463 @@
+fileFormatVersion: 2
+guid: bb496430804ec4e1e8728222aa07cc05
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7154549416204545267
+    second: BirdFly_Sprit_0
+  - first:
+      213: 4619642703339872245
+    second: BirdFly_Sprit_1
+  - first:
+      213: 9062962935257786635
+    second: BirdFly_Sprit_2
+  - first:
+      213: 6859011803020970399
+    second: BirdFly_Sprit_3
+  - first:
+      213: 8465351435807920397
+    second: BirdFly_Sprit_4
+  - first:
+      213: 754898875964268948
+    second: BirdFly_Sprit_5
+  - first:
+      213: -3438331243790697016
+    second: BirdFly_Sprit_6
+  - first:
+      213: -9136239337293634480
+    second: BirdFly_Sprit_7
+  - first:
+      213: 7980333628470740531
+    second: BirdFly_Sprit_8
+  - first:
+      213: -7451726632441643331
+    second: BirdFly_Sprit_9
+  - first:
+      213: -8217549769734874609
+    second: BirdFly_Sprit_10
+  - first:
+      213: -5123445998156787653
+    second: BirdFly_Sprit_11
+  - first:
+      213: -5244226320337093379
+    second: BirdFly_Sprit_12
+  - first:
+      213: 584222850743673462
+    second: BirdFly_Sprit_13
+  - first:
+      213: 1018265744594070580
+    second: BirdFly_Sprit_14
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BirdFly_Sprit_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9072
+        width: 4032
+        height: 3024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6e07ca2af6b41df89f29169bb8da72
+      internalID: 7154549416204545267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdFly_Sprit_1
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 9072
+        width: 4032
+        height: 3024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7fa265209634e03b32d3c24b6c6e37
+      internalID: 4619642703339872245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdFly_Sprit_2
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 9072
+        width: 4032
+        height: 3024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37194b768707040e18e312ce440a5899
+      internalID: 9062962935257786635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdFly_Sprit_3
+      rect:
+        serializedVersion: 2
+        x: 12096
+        y: 9072
+        width: 4032
+        height: 3024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391a425dc7c4341a9ba2b1f555375729
+      internalID: 6859011803020970399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdFly_Sprit_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6048
+        width: 4032
+        height: 3024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb704758426e24e8db5afe59a872ddb2
+      internalID: 8465351435807920397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdFly_Sprit_5
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 6048
+        width: 4032
+        height: 3024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d131a2ad3344ff69d9ec58deb68853
+      internalID: 754898875964268948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdFly_Sprit_6
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 6048
+        width: 4032
+        height: 3024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e079f91be524febb98c66a659e30f8
+      internalID: -3438331243790697016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdFly_Sprit_7
+      rect:
+        serializedVersion: 2
+        x: 12096
+        y: 6048
+        width: 4032
+        height: 3024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bae32bb0554d46bb88686561be9bdc6
+      internalID: -9136239337293634480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdFly_Sprit_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3024
+        width: 4032
+        height: 3024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127c41ec5e43a48799130917f8fb501f
+      internalID: 7980333628470740531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdFly_Sprit_9
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 3024
+        width: 4032
+        height: 3024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d46beb0e8cc4cc6821f12f7f3d1909
+      internalID: -7451726632441643331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdFly_Sprit_10
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 3024
+        width: 4032
+        height: 3024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35ace50e18b74c8ebf7a91e0ee1b215
+      internalID: -8217549769734874609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdFly_Sprit_11
+      rect:
+        serializedVersion: 2
+        x: 12096
+        y: 3024
+        width: 4032
+        height: 3024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011283a4b6d2444eb9144dadc8972d89
+      internalID: -5123445998156787653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdFly_Sprit_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 4032
+        height: 3024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3ca2ac1f0a9497fa2f1a54ccda4bbe
+      internalID: -5244226320337093379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdFly_Sprit_13
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 0
+        width: 4032
+        height: 3024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6b0ee3857a7423ab3f0bbec55381e2
+      internalID: 584222850743673462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdFly_Sprit_14
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 0
+        width: 4032
+        height: 3024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d74c68d1aa145359d5c8d49596c036
+      internalID: 1018265744594070580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d806dc015780d467b8ad055029059080
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
