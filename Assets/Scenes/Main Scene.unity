@@ -492,7 +492,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -543,7 +543,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 137930972}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 20.5, y: 27.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1840,6 +1840,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1723116997031995046, guid: 8ac88f370d9944dd699f0befbda27daf,
         type: 3}
       propertyPath: m_Name
@@ -1949,11 +1953,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3990980226927856535, guid: 8ac88f370d9944dd699f0befbda27daf,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ac88f370d9944dd699f0befbda27daf, type: 3}
@@ -4657,8 +4656,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 20.324806, y: 22.143696, z: 8.634679}
-  m_Center: {x: 0.18279552, y: 2.6306915, z: 3.8173363}
+  m_Size: {x: 34.29265, y: 26.924324, z: 8.634679}
+  m_Center: {x: -1.9308984, y: 2.8181303, z: 3.8173363}
 --- !u!54 &2044508784
 Rigidbody:
   m_ObjectHideFlags: 0

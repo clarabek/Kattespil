@@ -5,7 +5,7 @@ using UnityEngine;
 public class GUI_Button : MonoBehaviour
 {
 
-    public GameObject sunglasses;
+    public GameObject objectShow;
 
     private GameObject guiOBject;
 
@@ -32,7 +32,7 @@ public class GUI_Button : MonoBehaviour
             GameObject mainCamera;
             mainCamera = GameObject.FindGameObjectsWithTag("MainCamera")[0];
 
-            guiOBject = Instantiate(sunglasses, mainCamera.transform);
+            guiOBject = Instantiate(objectShow, mainCamera.transform);
         }
     }
 }
