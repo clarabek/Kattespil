@@ -13,9 +13,8 @@ public class Bird : MonoBehaviour
 
         if (objectHits.gameObject.tag == "Player")
         {
-            gameObject.GetComponent<Animator>().Play("BirdFly");
             GetComponent<Rigidbody>().AddForce(new Vector3(500, 500, 500));
-            Instantiate(note, new Vector3(8f, 5f, 0f), transform.rotation);
+            Instantiate(note, new Vector3(8f, 0f, 0f), transform.rotation);
         }
     }
 }
