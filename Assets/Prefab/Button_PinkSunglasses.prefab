@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3733566286242605195}
   - component: {fileID: 1599080560126780525}
   - component: {fileID: 2351198812097191795}
+  - component: {fileID: 1686848593793282041}
   - component: {fileID: 4229507871780218892}
   m_Layer: 5
   m_Name: Button_PinkSunglasses
@@ -129,6 +130,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1686848593793282041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723116997031995046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b16239adfc8c45a4a08f9b5d91a31a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customImage: {fileID: 1354413505898195319, guid: 20fae29e7d7344772bdc13874ec5193b,
+    type: 3}
 --- !u!114 &4229507871780218892
 MonoBehaviour:
   m_ObjectHideFlags: 0
