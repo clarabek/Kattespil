@@ -59,7 +59,7 @@ public class TopDown_Camera : MonoBehaviour
         else if (XMaxEnabled)
             targetPos.x = Mathf.Clamp(c_Target.position.x, c_Target.position.x, XMaxValue);
 
-
+        // rosa script ends...
 
         HandleCamera();
     }
