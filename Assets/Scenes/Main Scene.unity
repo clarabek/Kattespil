@@ -5684,6 +5684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 090d8b2fa0eaa4bdeadf88eb15c7d36e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SpeedMag: 0
 --- !u!195 &825669770
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -8024,14 +8025,14 @@ MonoBehaviour:
   c_Height: 10
   c_Distance: 1
   c_Angle: 0
-  ZMaxEnabled: 1
-  ZMaxValue: 9.2971
+  ZMaxEnabled: 0
+  ZMaxValue: 0
   ZMinEnabled: 0
   ZMinValue: 0
   XMaxEnabled: 0
   XMaxValue: 0
-  XMinEnabled: 1
-  XMinValue: -86.19
+  XMinEnabled: 0
+  XMinValue: 0
 --- !u!1 &1236307482
 GameObject:
   m_ObjectHideFlags: 0
@@ -11665,6 +11666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 090d8b2fa0eaa4bdeadf88eb15c7d36e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SpeedMag: 0
 --- !u!136 &1740862036
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -11687,7 +11689,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1740862033}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -54.2, y: 4.47, z: -9.57}
+  m_LocalPosition: {x: -85.6, y: 4.47, z: -3.6}
   m_LocalScale: {x: 0.56, y: 0.37, z: 0.89821}
   m_Children:
   - {fileID: 175889078}

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CatAnimation : MonoBehaviour
 {
+    float Speed;
+
     private void OnTriggerEnter(Collider objectHits)
     {
         Debug.Log("AnimationTrigger");
@@ -13,5 +15,15 @@ public class CatAnimation : MonoBehaviour
         {
             gameObject.GetComponent<Animator>().Play("Cat_Attack");
         }
+    }
+    public void Update()
+    {
+        Speed = gameObject.GetComponentInParent<KittyKat>().SpeedMag;
+
+        if (Speed < 0.15)
+        { gameObject.GetComponent<Animator>().Play("Cat_Idle"); }
+        else
+        { gameObject.GetComponent<Animator>().Play("2_Cat_Walk"); }
+
     }
 }

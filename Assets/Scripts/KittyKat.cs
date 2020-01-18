@@ -8,15 +8,26 @@ public class KittyKat : MonoBehaviour
     NavMeshAgent agent;
     //public Inventory inventory;
     SpriteRenderer spriteRenderer;
+    Vector3 PrevPos;
+    Vector3 NewPos;
+    Vector3 Speed;
+    public float SpeedMag;
 
-    void Start()
+    public void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
 
-    void Update()
+    public void Update()
     {
+
+        NewPos = transform.position;  // each frame track the new position
+        Speed = (NewPos - PrevPos) / Time.fixedDeltaTime;  // velocity = dist/time
+        PrevPos = NewPos;  // update position for next frame calculation
+        SpeedMag = Speed.sqrMagnitude;
+      
+
         if (Input.GetMouseButtonDown(0))
         {
             float x = Input.mousePosition.x;
