@@ -8,7 +8,7 @@ public class Bird : MonoBehaviour
 
     private void OnTriggerEnter(Collider objectHits)
     {
-        Debug.Log("Trigger");
+        //Debug.Log("Trigger");
         //Instantiate(note, new Vector3(8f,0.3f,0.3f),transform.rotation);
 
         if (objectHits.gameObject.tag == "Player")
