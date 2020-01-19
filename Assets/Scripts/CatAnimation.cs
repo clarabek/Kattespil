@@ -5,8 +5,8 @@ using UnityEngine;
 public class CatAnimation : MonoBehaviour
 {
     float Speed;
-
-   
+    Animator anim;
+    GameObject target;
     private void OnTriggerEnter(Collider objectHits)
     {
         
@@ -16,17 +16,25 @@ public class CatAnimation : MonoBehaviour
         {
            
             gameObject.GetComponent<Animator>().Play("Cat_Attack");
+            
+         
         }
     }
+ 
     public void Update()
     {
+        
         Speed = gameObject.GetComponentInParent<KittyKat>().SpeedMag;
 
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName("Cat_Attack"))
+        {
+            return;
+        }
         if (Speed < 0.15)
         { gameObject.GetComponent<Animator>().Play("Cat_Idle"); }
-        if (Speed > 0.15)
+        if (Speed > 0.15) 
         { gameObject.GetComponent<Animator>().Play("2_Cat_Walk"); }
- 
+        
     }
 
 }
