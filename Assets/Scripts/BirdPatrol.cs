@@ -5,7 +5,7 @@ using UnityEngine;
 public class BirdPatrol : MonoBehaviour
 {
     public float speed;
-    private float waitTime;
+    public float waitTime;
     public float startWaitTime;
 
     public Transform[] moveSpots;

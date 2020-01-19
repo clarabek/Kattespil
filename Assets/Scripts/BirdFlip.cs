@@ -6,11 +6,17 @@ public class BirdFlip : MonoBehaviour
 {
     SpriteRenderer spriteRenderer;
     private float x_trans;
+    private float x;
+    Vector3 PrevPos;
+    Vector3 NewPos;
+    Vector3 Speed;
+    public float SpeedMagbird;
 
     // Start is called before the first frame update
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        x = -200;
 
     }
 
@@ -18,9 +24,24 @@ public class BirdFlip : MonoBehaviour
     void Update()
     {
         x_trans = transform.position.x;
-        Debug.Log(x_trans);
-     
-        spriteRenderer.flipX = true;
-        
+
+        NewPos = transform.position;  // each frame track the new position
+        Speed = (NewPos - PrevPos) / Time.fixedDeltaTime;  // velocity = dist/time
+        PrevPos = NewPos;  // update position for next frame calculation
+        SpeedMagbird = Speed.sqrMagnitude;
+        if (SpeedMagbird < 0.15)
+        { x = x_trans; }
+
+        if (x < x_trans)
+        { spriteRenderer.flipX = false; }
+
+        if (x > x_trans)
+        { spriteRenderer.flipX = true; }
+
+
+
+
+
+
     }
 }
