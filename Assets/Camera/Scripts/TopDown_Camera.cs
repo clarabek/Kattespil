@@ -11,11 +11,22 @@ public class TopDown_Camera : MonoBehaviour
     // Start is called before the first frame update
 
 
-    
+    // rosa script, screen clamping:
 
 
-    
+    public bool ZMaxEnabled = false;
+    public float ZMaxValue = 0;
 
+    public bool ZMinEnabled = false;
+    public float ZMinValue = 0;
+
+    public bool XMaxEnabled = false;
+    public float XMaxValue = 0;
+
+    public bool XMinEnabled = false;
+    public float XMinValue = 0;
+
+    // rosa script part 1 end
     void Start()
     {
         HandleCamera();
@@ -28,10 +39,25 @@ public class TopDown_Camera : MonoBehaviour
         Vector3 targetPos = c_Target.position;
         targetPos.z = c_Target.position.z;
 
+        if (ZMinEnabled && ZMaxEnabled)
+            targetPos.z = Mathf.Clamp(c_Target.position.z, ZMinValue, ZMaxValue);
+
+        else if (ZMinEnabled)
+            targetPos.z = Mathf.Clamp(c_Target.position.z, ZMinValue, c_Target.position.z);
+
+        else if (ZMaxEnabled)
+            targetPos.z = Mathf.Clamp(c_Target.position.z, c_Target.position.z, ZMaxValue);
 
 
-        Mathf.Clamp(transform.position.x, -83.24313f, 43.2f);
-        Mathf.Clamp(transform.position.z, -0.2f, 10.6f);
+
+        if (XMinEnabled && XMaxEnabled)
+            targetPos.x = Mathf.Clamp(c_Target.position.x, XMinValue, XMaxValue);
+
+        else if (XMinEnabled)
+            targetPos.x = Mathf.Clamp(c_Target.position.x, XMinValue, c_Target.position.x);
+
+        else if (XMaxEnabled)
+            targetPos.x = Mathf.Clamp(c_Target.position.x, c_Target.position.x, XMaxValue);
 
         // rosa script ends...
 
