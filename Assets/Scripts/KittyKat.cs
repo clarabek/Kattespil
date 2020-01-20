@@ -12,11 +12,14 @@ public class KittyKat : MonoBehaviour
     Vector3 NewPos;
     Vector3 Speed;
     public float SpeedMag;
+  
 
     public void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+      
+
     }
 
     public void Update()
@@ -31,9 +34,8 @@ public class KittyKat : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             float x = Input.mousePosition.x;
-            x = x - 290;
+            x = x - 350;
             float x_cam = Camera.main.transform.position.x;
-
             if (x < x_cam)
             {
 
