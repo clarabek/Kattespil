@@ -26,14 +26,18 @@ public class CatAnimation : MonoBehaviour
         
         Speed = gameObject.GetComponentInParent<KittyKat>().SpeedMag;
 
-        if (anim.GetCurrentAnimatorStateInfo(0).IsName("Cat_Attack"))
+       /* if (anim.GetCurrentAnimatorStateInfo(0).IsName("Cat_Attack"))
         {
             return;
-        }
+        }*/
         if (Speed < 0.15)
-        { gameObject.GetComponent<Animator>().Play("Cat_Idle"); }
+        {
+            gameObject.GetComponent<Animator>().Play("Cat_Idle");
+        }
         if (Speed > 0.15) 
-        { gameObject.GetComponent<Animator>().Play("2_Cat_Walk"); }
+        {
+            gameObject.GetComponent<Animator>().Play("2_Cat_Walk");
+        }
         
     }
 
