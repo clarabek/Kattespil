@@ -34,7 +34,7 @@ public class KittyKat : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             float x = Input.mousePosition.x;
-            x = x - 350;
+            x = x - 1700;
             float x_cam = Camera.main.transform.position.x;
             if (x < x_cam)
             {
